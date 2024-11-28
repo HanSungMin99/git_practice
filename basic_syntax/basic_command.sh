@@ -12,6 +12,8 @@ git commit -m "메시지타이틀" -m "메시지내용"
 #첫줄: 타이틀, 두번째줄부터 contents
 git commit
 
+#add와 commit을 동시에
+git commit -am "커밋메시지"
 
 
 
