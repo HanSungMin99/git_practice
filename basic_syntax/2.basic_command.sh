@@ -48,4 +48,6 @@ git diff A B
 git diff commitID1 commitID2
 git diff 브랜치1 브랜치2
 
+#브랜치 생성과 전환을 동시에
+git checkout -b 브랜치명
 
