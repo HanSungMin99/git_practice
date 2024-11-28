@@ -42,3 +42,10 @@ git checkout 커밋ID
 git reset head~1
 git reset head^
 
+#버전별(commitID간, branch간) 비교 명령어: diff
+#A를 기준으로 B가 어떤 변경이 있는지를 비교
+git diff A B
+git diff commitID1 commitID2
+git diff 브랜치1 브랜치2
+
+
