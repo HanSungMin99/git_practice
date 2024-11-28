@@ -15,6 +15,15 @@ git commit
 #add와 commit을 동시에
 git commit -am "커밋메시지"
 
+#commit 이력 확인(local repository의 이력)
+git log 
+#log 내용을 1줄로 간결하게
+git log --oneline
+#commit 이력을 그래프 형태로 조회
+git log --graph
 
-
+#원격저장소로 업로드
+git push oringin 브랜치명
+#충돌발생시 무시하고 강제push
+git push origin main --force
 
