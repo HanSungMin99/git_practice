@@ -45,7 +45,15 @@ git add .
 git commit -m "first 커밋"
 git push origin main
 
-
+#git config --list로 설정 정보를 보면 사용자 이름, 사용자 이메일 확인 가능
+#사용자 지정 방법
+#전역적 사용자(이름, email)지정
+git config --global user.name "유저네임"
+git config --global user.email "유저email"
+#지역적 사용자(이름, email)지정
+#현재 레파지토리에 한해서만 사용자 변경
+git config --local user.name "유저네임"
+git config --local user.email "유저email"
 
 
 
